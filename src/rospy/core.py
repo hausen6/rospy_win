@@ -232,7 +232,8 @@ def configure_logging(node_name, level=logging.INFO):
             filename = filename[1:]
         if not filename:
             raise rospy.exceptions.ROSException('invalid configure_logging parameter: %s'%node_name)
-    _log_filename = rosgraph.roslogging.configure_logging('rospy', level, filename=filename)
+    print(filename)
+    #_log_filename = rosgraph.roslogging.configure_logging('rospy', level, filename=filename)
 
 class NullHandler(logging.Handler):
     def emit(self, record):

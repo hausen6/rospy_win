@@ -7,7 +7,7 @@ setup(
         author="hausen6",
         discription="rospy for windows (indigo)",
         packages=find_packages(),
-           # ["catkin", "client", "genmsg", "genpy",
-           #  "roscpp", "rosgraph", "rosgraph_msgs", "roslib",
-           #  "rospy", "std_msgs", "std_srvs"]
+        install_requires = ["rospkg>=1.0.35",
+                            "catkin_pkg>=0.2.10",
+            ]
 )
