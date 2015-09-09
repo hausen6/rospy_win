@@ -7,8 +7,8 @@ setup(
         author="hausen6",
         description="rospy for windows (indigo)",
         packages=find_packages("src"),
-        package_dir={"": "src", }
-        # install_requires = ["rospkg>=1.0.35",
-        #                     "catkin_pkg>=0.2.10",
-            # ]
+        package_dir={"": "src", },
+        install_requires = ["rospkg>=1.0.35",
+                            "catkin_pkg>=0.2.10",
+            ]
 )
