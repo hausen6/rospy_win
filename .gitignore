@@ -1,1 +1,7 @@
 *.pyc
+
+# install時に生成されるものは無視
+build/
+build/*
+dist/
+dist/*
